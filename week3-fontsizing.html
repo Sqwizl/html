@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Week 3 Exercises </title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#px">px</a></li>
+                <li><a href="#pt">pt</a></li>
+                <li><a href="#em">em</a></li>
+                <li><a href="rem">rem</a></li>
+            </ul>
+        </nav>
+    <div id="PX">
+        <style>
+            #PX {
+                font-size: 16px;
+            }
+        </style>
+<h2>Font Sizing</h2>
+        <h3> PX </h3>
+        <p>A CSS pixel "px" is a unit of length in CSS, distinct from a physical device
+             pixel. It is formally defined as 1/96th of a CSS inch.
+             This definition aims to provide a consistent visual size for web
+             content across various devices with differing pixel densities (DPI).
+             </p>
+            </div>
+      <div id="PT">
+        <style>
+            #PT {font-size: 16pt;
+            }
+        </style>
+        <h3>PT</h3>
+        <p>In CSS, "pt" stands for points, an absolute length unit primarily used in print media.
+            Definition:
+            A point is a fixed-size unit of measurement, traditionally used in typography and print design.
+            One point is defined as 1/72 of an inch. 
+            In the context of CSS, using pt for font sizes or element dimensions means setting a size that
+            corresponds directly to this fixed physical measurement,
+            as if it were to be printed on paper.
+        </p>
+      </div>
+      <div id="EM">
+        <style>
+            #EM {font-size: 16px;
+                line-height: 2em;
+            }
+        </style>
+        <h3>EM</h3>
+        <p>In CSS, "em" is a unit of measurement which indicates size relative to the size of the font.
+            1em means "equal to the current font size", and 2em means 2 times the current font size.
+            When em units are applied to nested elements, their values can compound. For example, if a parent has font-size: 16px;
+            and a child has font-size: 1.5em;, the child's font size will be 24px. If a grandchild then has font-size: 1.5em;
+            Its size will be 1.5 * 24px = 36px. This cascading effect requires careful management in deeply nested structures. 
+        </p>
+      </div>
+      <div id="REM">
+        <style>
+            #REM {font-size: 2rem;
+                }
+        </style>
+        <h3>REM</h3>
+        <p>In CSS, "rem" stands for "root em". It is a relative unit of measurement that represents 
+            the font size of the root element of a document,which is the html element.
+            In most browsers, the default font size of the html element is 16px. Therefore, by default, 1rem equals 16px.
+        </p>
+      </div>
+    </body>
+</html>
