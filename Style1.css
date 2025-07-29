@@ -1,0 +1,40 @@
+#main-header {background-color: lightblue;
+}
+.title {
+    font-size:40px;
+    color:red;
+    text-align: center;
+}
+#navbar {
+    background-color:darkgrey;
+    color: white;
+}
+#navbar a {
+    color:white;
+}
+#about {
+    padding:20px 20px 20px 20px;
+}
+#projects {
+    padding: 15px 15px 15px 15px;
+}
+#contact {
+    padding: 25px 20px 30px 40px;
+}
+.section-title {font-weight:bold;
+    text-align:center;
+
+}
+.section-content {font-size: 35px;
+     color:limegreen;
+}
+.project {border-width: 5px;
+            border-style: double;
+            border-color: blueviolet;
+            padding: 50px 50px 50px 50px;
+        }
+.contact-button {background-color: maroon;
+                font-size: 26px;
+                padding: 42px 42px 42px 42px;
+                text-align:justify;
+}
